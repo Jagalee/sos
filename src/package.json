@@ -1,0 +1,15 @@
+{
+  "name": "sos",
+  "version": "0.0.0",
+  "description": "HTML shell for SOS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Ashton",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6"
+  }
+}
