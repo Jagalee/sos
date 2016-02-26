@@ -4490,7 +4490,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #FFF;
+  padding-top: 35px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -6763,5 +6764,16 @@ h4 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.hero-slide {
+  color: #FFF;
+  padding: 0px 145px;
+  height: 400px;
+}
+.promo-container {
+  color: #FFF;
+  background: #222;
+  height: 380px;
+  width: 660px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
