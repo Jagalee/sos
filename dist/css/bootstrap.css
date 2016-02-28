@@ -6728,7 +6728,7 @@ button.close {
 #footer-panel {
   background: #f2f5f8;
   color: #bbb;
-  padding-top: 50px;
+  padding: 50px 30px 75px;
 }
 #get-started-panel {
   height: 400px;
@@ -6800,14 +6800,43 @@ h4 {
   font-size: 1.5em;
 }
 #log-in-popup {
-  z-index: 1000;
+  color: #fff;
+  background: #001d3f;
+  height: 350px;
+  padding: 15px 20px;
   position: absolute;
   right: 15px;
   top: -22px;
-  color: #fff;
   width: 400px;
-  height: 350px;
-  background: #001d3f;
+  z-index: 1000;
+}
+#log-in-popup .headline {
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+#log-in-popup .footer {
+  background: #002653;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+}
+#log-in-popup .footer a {
+  color: #32d4b3;
+  text-decoration: underline;
+}
+#log-in-popup input {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background: #1a3453;
+  border: none;
+  color: #fff;
+}
+#log-in-popup input-group-addon {
+  background: #1a3453;
+  color: #fff;
 }
 #log-in-popup-holder {
   position: relative;
@@ -6834,5 +6863,18 @@ h4 {
 }
 .nav-col ul li a {
   color: #b4bbc2;
+}
+#jagalee-logo {
+  margin-left: 8px;
+}
+.get-started-cta {
+  color: #00637f;
+  list-style: none;
+}
+.get-started-cta .line-1 {
+  font-size: 2em;
+}
+.get-started-cta .line-2 {
+  font-size: 3em;
 }
 /*# sourceMappingURL=bootstrap.css.map */
