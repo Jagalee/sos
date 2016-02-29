@@ -6735,6 +6735,11 @@ button.close {
   margin: 0px;
   background: #32d4b3 url(../images/bg-02.png) no-repeat;
 }
+#water-cta-panel {
+  height: 400px;
+  margin: 0px;
+  background: #32d4b3 url(../images/bg-03.png) no-repeat;
+}
 h1 {
   font-size: 2em;
   font-weight: 900;
@@ -6754,6 +6759,15 @@ h4 {
   background: none;
   height: 630px;
 }
+#hero-panel-short {
+  background: none;
+  height: 177px;
+}
+.hero-slide {
+  color: #FFF;
+  height: 400px;
+  padding: 0px 145px;
+}
 #lower-nav {
   background: #f2f5f8;
   padding: 60px 0px;
@@ -6770,11 +6784,6 @@ h4 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-.hero-slide {
-  color: #FFF;
-  padding: 0px 145px;
-  height: 400px;
 }
 .promo-container {
   color: #FFF;
