@@ -6886,4 +6886,16 @@ h4 {
 .get-started-cta .line-2 {
   font-size: 3em;
 }
+.button-1 {
+  width: 100%;
+  background: #006fac;
+  border-color: #006fac;
+  color: #fff;
+}
+.button-2 {
+  width: 100%;
+  background: black;
+  border-color: black;
+  color: #fff;
+}
 /*# sourceMappingURL=bootstrap.css.map */
