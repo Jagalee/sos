@@ -4305,6 +4305,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+  margin-left: 60px !important;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -6892,9 +6893,16 @@ h4 {
 #jagalee-logo {
   margin-left: 8px;
 }
+.inline-email {
+  color: #b4bbc2;
+}
 .get-started-button {
   background: #32d4b3;
   color: #fff;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 900;
+  padding: 9px 21px;
 }
 .get-started-cta {
   color: #00637f;
@@ -6910,30 +6918,6 @@ h4 {
 }
 .homepage-sub-text {
   padding: 0px 45px;
-}
-.button-1 {
-  width: 100%;
-  background: #006fac;
-  border-color: #006fac;
-  color: #fff !important;
-}
-.button-1 a {
-  text-decoration: none;
-}
-.button-1:hover {
-  background: #006fac;
-  border-color: #006fac;
-}
-.button-2 {
-  width: 100%;
-  background: black;
-  border-color: black;
-  color: #fff !important;
-  text-decoration: underline;
-}
-.button-2:hover {
-  background: black;
-  border-color: black;
 }
 .carousel-control.left,
 .carousel-control.right {
@@ -6967,5 +6951,43 @@ h4 {
   color: #32d4b3;
   padding: 4px 7px;
   font-size: 24px;
+}
+.social-circle-fb {
+  background: url(../images/social-circle-bg.png);
+  height: 40px;
+  width: 40px;
+  margin: 4px;
+  display: block;
+  float: left;
+  color: #32d4b3;
+  padding: 4px 13px;
+  font-size: 24px;
+}
+.social-circle-insta {
+  background: url(../images/social-circle-bg.png);
+  height: 40px;
+  width: 40px;
+  margin: 4px;
+  display: block;
+  float: left;
+  color: #32d4b3;
+  padding: 3px 9px;
+  font-size: 24px;
+}
+.sos-button {
+  width: 100%;
+}
+.social-btn-1 {
+  background: #006fac;
+  border-color: #006fac;
+  color: #fff !important;
+}
+.social-btn-2 {
+  background: black;
+  border-color: black;
+  color: #fff !important;
+}
+.nav-section-ul {
+  padding: 0px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
